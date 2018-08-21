@@ -9,11 +9,11 @@ namespace IOClearn.DAL
     /// <summary>
     /// sqlserver数据操作层
     /// </summary>
-    public class SqlServerDal
+    public class SqlServerDal:IDataAccess
     {
         public void Add()
         {
-            Console.WriteLine("向数据库中添加一条订单");
+            Console.WriteLine("向Sqlserver数据库中添加一条订单");
         }
     }
 }

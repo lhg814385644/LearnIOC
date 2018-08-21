@@ -9,7 +9,7 @@ namespace IOClearn.DAL
     /// <summary>
     /// Access数据操作类
     /// </summary>
-    public class AccessDal
+    public class AccessDal:IDataAccess
     {
         public void Add()
         {

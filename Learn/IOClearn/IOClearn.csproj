@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\AccessDal.cs" />
+    <Compile Include="DAL\IDataAccess.cs" />
     <Compile Include="DAL\SqlServerDal.cs" />
+    <Compile Include="Dependent\IDependent.cs" />
     <Compile Include="Orders\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
